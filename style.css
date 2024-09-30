@@ -69,13 +69,6 @@ h1 {
   transform: translate(-50%, 50%);
 }
 
-.between {
-  font-size: 1.4rem;
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-}
-
 .again {
   position: absolute;
   top: 2rem;
@@ -116,4 +109,69 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+.help {
+  right: 2rem;
+  top: 2rem;
+  position: absolute;
+  
+}
+
+.closeHelp {
+  position: absolute;
+  top: 30% ;
+  bottom: 30%;
+  left: 50% ;
+  width: 70% ;
+  transform: translate(-50%, -50%);
+   background-color: white;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.helpH{
+  color: black;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.helpP{
+  color: black;
+  font-size: 1.6rem;
+  
+  
+}
+
+.hidden{
+display: none;
+}
+
+.helpS{
+  color: darkred; 
+  font-weight: bold
+}
+
+.closeButton{
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 3rem;
+  color:#333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.overlay{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  z-index: 5;
 }

@@ -107,6 +107,40 @@ document.querySelector('.guess').value= '';
 document.query
 });
 
+// modal for "how to play" button
+const modal = document.querySelector('.closeHelp');
+
+// function for closing the modal
+const closeModal = function(){
+    modal.classList.add('hidden');
+    overlay.classList.add('hidden');
+}
+
+
+// button functionality for close button
+const closeButton = document.querySelector('.closeButton');
+closeButton.addEventListener('click', closeModal);
+
+// button functionality for help button
+const helpButton = document.querySelector('.help');
+helpButton.addEventListener('click', function(){
+    modal.classList.remove('hidden');
+    overlay.classList.remove('hidden');
+});
+
+
+// functionality for clicking and pressing escape for removal of overlay!
+const overlay = document.querySelector('.overlay');
+overlay.addEventListener('click',closeModal);
+
+document.addEventListener('keydown', function(e){
+  console.log(e.key);
+if(e.key === 'Escape' && !modal.classList.contains('hidden'))
+closeModal();
+});
+
+
+
 
 
 
