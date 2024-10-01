@@ -23,6 +23,6 @@ GAME OVER😜
 ![Screenshot (106)](https://github.com/user-attachments/assets/658cd04a-3ff7-4d91-8484-0e3acb62f9b4)
 
 
-I have fixed the css , it will run on all the  samrtphones without any display size issue!
+I have fixed the css , it will run on all the  smartphones without any display size issue!
 ![A PHONE1](https://github.com/user-attachments/assets/ce0d72ca-b64a-4ba9-b15e-d67de243a53b)
 
