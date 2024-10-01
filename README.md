@@ -18,3 +18,6 @@ If the user guesses the number way 📉 lower than the secret number!
 If the user finally guesses the 🎉 secret number!
 ![If the user guesses the secret number!](https://github.com/user-attachments/assets/ad0615fa-95c6-4f6d-82ad-11b34a02f3fa)
 
+
+GAME OVER😜
+![Screenshot (106)](https://github.com/user-attachments/assets/658cd04a-3ff7-4d91-8484-0e3acb62f9b4)
