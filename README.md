@@ -2,6 +2,9 @@
 The secret number lies between 1 & 20 , the user has to guess the number based on the information displayed , for example if the message displayed is "📈Too High!"  then try to lower  your number and vice versa 
 Try guessing numbers at few attempts , and make a new High score!
 
+Here is the URL, you can test it:  https://guess-the-secret-number-yadavishan.netlify.app/
+
+
 Here are some screenshots!
 If the user provides 😒 no input!
 ![If the user provides no input!](https://github.com/user-attachments/assets/1053ed73-138b-485e-a4c6-3b84598a222c)
