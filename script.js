@@ -62,8 +62,9 @@ document.querySelector('.check').addEventListener('click', function () {
      else {
       // document.querySelector('.message').textContent = '💥GAME OVER!';
       displayMessage('💥GAME OVER!');
-      // document.querySelector('.score').textContent = 0;
-      displayScore(0);
+      document.querySelector('body').style.backgroundColor = '#800517';
+        // document.querySelector('.score').textContent = 0;
+        displayScore(0);
     }
   }
 
